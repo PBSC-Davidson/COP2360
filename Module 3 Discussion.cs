@@ -17,7 +17,7 @@ public class Football    //Declaring a public class named Football.
     {
         Console.WriteLine($"The football is {Color}, its size is {Size}, and the brand is {Brand}.");
     }
-    public static void Main(string[] args)
+    public static void Main(string[] args)  //Entry point of the program
     {
         Football myFootball = new Football("brown", 5, "Nike");
         myFootball.DisplayInfo();
